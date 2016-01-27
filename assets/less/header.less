@@ -2,6 +2,9 @@
 	height: 800px;
 	width: 100%;
 	background-color: #367396;
+	background-image: url(../img/bg/Background_01.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 
 	#header {
 		height: 106px;
@@ -13,6 +16,7 @@
 		#logo {
 			float: left;
 			width: 177px;
+			margin-right: 13px;
 		}
 		nav {
 			float: right;
@@ -23,12 +27,25 @@
 
 				li {
 					display: inline-block; 
-
+					padding: 0 13px;
 					a {
-						color: white;
 						text-decoration: none;
 						&:hover {
 							text-decoration: underline;
+							.icon-mail {
+								// change color on hover
+						    	background-position: -242px -37px;
+							}
+							.icon-star {
+								// change color on hover
+								background-position: -303px -37px;
+							}
+						}
+						span.icon {
+							display: inline-block;
+   							vertical-align: text-bottom;
+							margin-right: 13px;
+    						margin-bottom: -2px;
 						}
 					}
 				}
