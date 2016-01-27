@@ -7,7 +7,7 @@ function blurElement(target) {
 	source: 'body',			//Background to blur
 	radius: 5,			//Blur Radius
 	overlay: '',			//Overlay Color, follow CSS3's rgba() syntax
-	offset: {			//Pixel offset of background-position
+	offset: {		 //Pixel offset of background-position
 		x: 0,
 		y: 0
 	},
