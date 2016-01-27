@@ -31,6 +31,53 @@
 			background-position: -136px -66px;
 		}
     }
+    form {
+    	position: absolute;
+	    top: 200px;
+	    left: 50%;
+	    transform: translateX(-50%);
+
+    	input {
+	    	display: block;
+		    width: 190px;
+		    margin: 0px 0 15px 0;
+		    box-sizing: border-box;
+		    background-color: transparent;
+		    border: 1px solid #00C7FF;
+		    border-radius: 30px;
+		    font-size: 14px;
+		    height: 30px;
+		    font-weight: 300;
+		    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		    padding: 0 20px 3px 20px;
+		    &:focus {
+		    	background-color: rgba(0, 199, 255, 0.1);
+		    }
+    	}
+    	button {
+	    	display: block;
+		    width: 190px;
+		    margin: 0px 0 15px 0;
+		    box-sizing: border-box;
+		    background-color: #00C7FF;
+		    border: 1px solid #00C7FF;
+		    border-radius: 30px;
+		    font-size: 14px;
+		    color: white;
+		    height: 30px;
+		    font-weight: 300;
+		    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		    padding: 0 20px 3px 20px;
+		    &:hover {
+			    background-color: #00D7FF;
+			    border: 1px solid #00D7FF;
+		    }
+		    &:active {
+			    background-color: #367396;
+			    border: 1px solid #367396;
+		    }
+    	}
+    }
 }
 #curtain {
 	display: none;
