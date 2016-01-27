@@ -21,8 +21,8 @@ function tabController() {
 // Newsletter popup controller
 function newsletterPopup() {
 	$('#newsletter-button').on('click', function() {
-		$('#newsletter').show();
-		$('#curtain').show().on('click', function() {
+		$('#newsletter').fadeIn();
+		$('#curtain').fadeIn().on('click', function() {
 			newsletterPopout();
 		});
 		$('#newsletter-close').on('click', function() {
@@ -31,8 +31,8 @@ function newsletterPopup() {
 	});
 }
 function newsletterPopout() {
-	$('#newsletter').hide();
-	$('#curtain').hide();
+	$('#newsletter').fadeOut();
+	$('#curtain').fadeOut();
 }
 
 
