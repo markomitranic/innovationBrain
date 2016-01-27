@@ -2,66 +2,15 @@
 	height: 443px;
 }
 
-.main-content-template {
-
-	.template-content {
-		width: 820px;
-		margin: 0 auto;
-		background-color: white;
-		margin-top: -230px;
-	}
+#content-wrapper {
+  width: 820px;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: -200px;
+  
+  #content {
+    min-height: 500px;
+  }
 }
 
-  .tabs {
-    margin: 0;
-    padding: 0;
-    float: none;
-    list-style: none;
-    position: relative;
-    li {
-      width: 50%;
-      float: left;
-      display: block;
-    }
-    input[type="radio"] {
-      position: absolute;
-      top: -9999px;
-      left: -9999px;
-    }
-    label {
-      font-size: 20px;
-      font-weight: bold;
-      text-align: center;
-      padding: 15px 0;
-      display: block;
-      cursor: pointer;
-      position: relative;
-      background-color: #ebebeb;
-      -moz-box-shadow: inset 0px -1px 3px 0px rgba(0,0,0,0.23);
-      -webkit-box-shadow: inset 0px -1px 3px 0px rgba(0,0,0,0.23);
-      box-shadow: inset 0px -1px 3px 0px rgba(0,0,0,0.23);
-
-      &:hover {
-      }
-    }
-    .tab-content{
-      text-align: center;
-      margin: 0 80px;
-      display: none; 
-      overflow: hidden;
-      position: absolute;
-      left: 0;
-    }
-    //The Magic
-    [id^="tab"]:checked + label { 
-      top: 0;
-      background-color: white;
-      -moz-box-shadow: none;
-      -webkit-box-shadow: none;
-      box-shadow: none;
-    }
-    [id^="tab"]:checked ~ [id^="tab-content"] {
-      display: block;
-    }
-  }
  
