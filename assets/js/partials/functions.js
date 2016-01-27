@@ -1,3 +1,5 @@
+
+
 // This function only echoes 'Hello World!' into console if called.
 function consoleTest() {
 	console.log('Hello World!');
@@ -6,17 +8,33 @@ function consoleTest() {
 // Tabs Controller
 
 function tabController() {
-	$(document).ready(function() {
-	    $("#tabs-menu a").click(function(event) {
-	        event.preventDefault();
-	       	 $('this').parent().addClass("current")
-	       	 .end().parent().siblings().removeClass("current");
-	        var tab = $(this).attr("href");
-	        $(tab).siblings().css("display", "none")
-	        .end().fadeIn();
-	    });
+    $("#tabs-menu a").click(function(event) {
+        event.preventDefault();
+       	$(this).parent().addClass("current").end().parent().siblings().removeClass("current");
+        var tab = $(this).attr("href");
+        $(tab).siblings().css("display", "none")
+        .end().fadeIn();
+    });
+}
+
+
+// Newsletter popup controller
+function newsletterPopup() {
+	$('#newsletter-button').on('click', function() {
+		$('#newsletter').show();
+		$('#curtain').show().on('click', function() {
+			newsletterPopout();
+		});
+		$('#newsletter-close').on('click', function() {
+			newsletterPopout();
+		});
 	});
 }
+function newsletterPopout() {
+	$('#newsletter').hide();
+	$('#curtain').hide();
+}
+
 
 // $(function () {
 //     html2canvas($("body"), {
