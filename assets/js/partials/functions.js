@@ -4,7 +4,7 @@ function consoleTest() {
 }
 
 $('#hero').blurjs({
-	source: 'body',
+	source: '#headerWrapper',
 	radius: 7,
 	overlay: 'rgba(255,255,255,0.4)'
 });
