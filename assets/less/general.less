@@ -2,3 +2,35 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+//CLEARFIX HACK
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.contain {
+	width: 700px;
+	margin: 0 auto;
+}
+#header {
+	background-color: blue;
+	height: 200px;
+}
+#bgimage {
+	background-color: green;
+	height: 200px;
+}
+#content {
+	background-color: white;
+	height: auto;
+}
