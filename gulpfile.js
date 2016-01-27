@@ -26,7 +26,7 @@ gulp.task('build-js', function() {
 
 // Less to CSS: Run manually with: "gulp build-css"
 gulp.task('build-css', function() {
-    return gulp.src('production/less/style.less')
+    return gulp.src('assets/less/style.less')
         .pipe(plugins.plumber())
         .pipe(plugins.less())
         .on('error', function (err) {
