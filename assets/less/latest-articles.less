@@ -1,0 +1,60 @@
+#contentWrapper{
+
+	background-color: #373737;
+
+	#latest {
+		width: 780px;
+		height: 300px;
+		background-color: #373737;
+		position: relative;
+		margin: 0 auto;
+
+
+		h3, h5 {
+			text-align: center;
+			margin: 0;
+			padding: 0;
+		}
+
+		h3 {
+			padding-top: 30px;
+		}
+
+		h5 {
+			color: white;
+		}
+
+		&:before {
+			position: absolute;
+			content: "";
+			width: 50px;
+			height: 50px;
+			border-radius: 100px;
+			display: block;
+			background-color: black;
+			float: left;
+			left: 50%;
+			margin-left: -25px;
+			margin-top: -25px;
+		}
+
+		article {
+			float: left;
+			width: 154px; // POVECAJ NA 156 KAD SKLONIS BORDER
+			height: 200px;
+			border: 1px solid white;
+			margin: 0 auto;
+
+			button {
+				position: relative;
+				width: 100px;
+				height: 30px;
+				margin-left: 27px;
+				bottom: -160px;
+				background-color: transparent;
+				border-color: #00c7ff;
+				border-radius: 15px;
+			}
+		}
+	}
+}	
