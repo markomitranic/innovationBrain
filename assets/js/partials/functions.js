@@ -1,8 +1,9 @@
 // This function only echoes 'Hello World!' into console if called.
 function consoleTest() {
-	console.log('Hello Wordld!');
+	console.log('Hello World!');
 }
 
+<<<<<<< HEAD
 
 // $(function () {
 //     html2canvas($("body"), {
@@ -45,3 +46,5 @@ function consoleTest() {
 //         "-webkit-transform",
 //         "translatey(-" + $(window).scrollTop() + "px)");
 // });
+=======
+>>>>>>> 51c510e7f169da66dee7fec5e530c5364d708861
