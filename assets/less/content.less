@@ -10,7 +10,7 @@
   
   	#content {
 	    min-height: 500px;
-	    margin: 0 80px;
+    	margin: 50px 80px 50px 80px;
 	    
 	    h3 {
 	    	margin: 46px 0;
@@ -69,51 +69,88 @@
 		    max-width: 100%;
 		}
 
-		.brochure-img {
-		    float: left;
-		    height: 120px;
-		}
-
-		h4 {
-		    margin: 0;
-		    font-weight: normal;
-		    float: left;
-		    text-align: left;
-		    width: 240px;
-		    margin-left: 25px;
-		}
-
-		button {
-		    width: 200px;
+		.button {
+			width: 215px;
 		    height: 50px;
+		    border: 1px solid #00D7FF;
+		    border-radius: 2px;
+		    font-weight: 500;
+		    font-family: HelveticaNeue;
+		    font-size: 14px;
 		    color: #5F8F9C;
 		    background-color: transparent;
-		    border: 3px solid #00D7FF;
+	        position: relative;
+    		padding-left: 30px;
+    		font-weight: 700;
+    		margin: 5px 0 5px 0;
+    		cursor: pointer;
+    		pointer: hand;
+
+		    .icon {
+			    display: inline-block;
+			    position: absolute;
+			    top: 50%;
+			    left: 5px;
+			    transform: translateY(-50%);
+		    }
+
 		}
+		.button-blue {
+			color: white;
+			background-color: #00D7FF;
+		}
+
+
 		footer {
 			overflow: hidden;
-	    	margin-bottom: 60px;
 
+			.brochure-img {
+			    float: left;
+			    width: 86px;
+			}
 	    	h3 {
-	    		margin: 0 0 16px 0;
+	    		margin: 16px 0;
 	    	}
-		}
-		.people-left {
-			margin-top: 25px;
-			width: 20%;
-			float: left;
-
-			.lukas-circle {
-				width: 100px;
-				height: 100px;
-				border-radius: 50px;
-				background-color: blue;
+		  	.content-spacer-line {
+				margin: 0;
+		  	}
+			h4 {
+			    margin: 0;
+			    font-weight: normal;
+			    float: left;
+			    text-align: left;
+			    width: 240px;
+			    margin-left: 25px;
 			}
 		}
-		.people-right {
-			margin-top: 25px;
-			width: 80%;
+		.bio-left {
+			width: 115px;
+			float: left;
+
+			.person-circle {
+				overflow: hidden;
+				width: 115px;
+				height: 115px;
+				border-radius: 50%;
+				background-color: gray;
+
+				img {
+					width: 115px;
+					height: auto;
+				}
+			}
+		}
+		.bio-right {
+			width: ~"calc(100% - 115px)";
 			float: right;
+		    padding: 0 0px 0 30px;
+    		box-sizing: border-box;
+
+    		.button {
+    			float: right;
+    			margin: 14px 0 0 0;
+    			z-index: 1;
+    		}
 		}
 	}
 }
