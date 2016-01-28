@@ -23,29 +23,37 @@
 		    font-size: 16px;
 		    color: #000000;
 		    line-height: 21px;
+		    margin: 10px 0 20px 0;
 	  	}
-	  
-		.au-circle {
-		    width: 33%;
-			float: left;
+	  	.content-spacer-line {
+			margin: 20px 0;
+	  	}
+	  	.circle-group {
+			.au-circle {
+			    width: 33%;
+				float: left;
+			}
+			p {
+				text-align: center;
+				margin: 0;
+			}
+		  	.circle {
+			    width: 120px;
+			    height: 120px;
+			    margin: 0 auto;
+			    border-radius: 60px;
+			    background-color: #00D7FF;
+			    box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.50);
+			    position: relative;
+
+			    .icon {
+		    	    position: absolute;
+				    top: 50%;
+				    left: 50%;
+				    transform: translate(-50%,-50%);
+			    }
+		  	}
 		}
-	  	.circle {
-		    width: 120px;
-		    height: 120px;
-		    margin: 0 auto;
-		    border-radius: 60px;
-		    background-color: #00D7FF;
-		    box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.50);
-		    position: relative;
-
-		    .icon {
-	    	    position: absolute;
-			    top: 50%;
-			    left: 50%;
-			    transform: translate(-50%,-50%);
-		    }
-	  	}
-
 		.ulfix {
 		    text-align: left;
 		    list-style-type: decimal !important;
@@ -85,6 +93,10 @@
 		footer {
 			overflow: hidden;
 	    	margin-bottom: 60px;
+
+	    	h3 {
+	    		margin: 0 0 16px 0;
+	    	}
 		}
 		.people-left {
 			margin-top: 25px;
