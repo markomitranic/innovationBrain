@@ -10,11 +10,7 @@
   
   	#content {
 	    min-height: 500px;
-    	margin: 50px 80px 50px 80px;
-	    
-	    h3 {
-	    	margin: 46px 0;
-	    }
+	    padding: 50px 80px;
 
 		p {
 		    text-align: justify;
@@ -57,7 +53,7 @@
     		font-weight: 700;
     		margin: 5px 0 5px 0;
     		cursor: pointer;
-    		pointer: hand;
+    		cursor: hand;
 
 		    .icon {
 			    display: inline-block;
@@ -65,12 +61,18 @@
 			    top: 50%;
 			    left: 5px;
 			    transform: translateY(-50%);
+			    background-position: -209px -68px;
+		    }
+		    &:hover {
+		    	cursor: pointer;
+		    	cursor: hand;
+				color: white;
+				background-color: #00D7FF;
+		    	.icon {
+		    		background-position: -181px -68px;
+		    	}
 		    }
 
-		}
-		.button-blue {
-			color: white;
-			background-color: #00D7FF;
 		}
 	}
 }
