@@ -77,3 +77,12 @@ function newsletterPopout() {
 //         "-webkit-transform",
 //         "translatey(-" + $(window).scrollTop() + "px)");
 // });
+
+$("#headerWrapper").vegas({
+    slides: [
+        { src: "img/bg/Background_01.jpg" },
+        { src: "img/bg/Background_02.jpg" },
+        { src: "img/bg/Background_03.jpg" },
+        { src: "img/bg/Background_04.jpg" }
+    ]
+});
