@@ -101,13 +101,8 @@ $(function() {
 
 $('.wrapper').on('click', function(){
   
-  $(this).toggleClass('checked', true);
+  $(this).toggleClass('checked');
   
-  $('#menu').slideDown();
-
-  $('.checked').on('click', function(){
-    $('.wrapper').toggleClass('checked', false);
-    $('#menu').slideUp();
-  });
+  $('#menu').slideToggle();
 
 });
