@@ -79,10 +79,22 @@ function newsletterPopout() {
 // });
 
 $("#headerWrapper").vegas({
+	timer: false,
     slides: [
         { src: "img/bg/Background_01.jpg" },
         { src: "img/bg/Background_02.jpg" },
         { src: "img/bg/Background_03.jpg" },
         { src: "img/bg/Background_04.jpg" }
     ]
+});
+
+$(function() {
+    $('.arrow-footer').on('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top,
+            // stop: $anchor.css('border', 'none')
+        }, 1000, 'easeOutSine');
+        event.preventDefault();
+    });
 });
