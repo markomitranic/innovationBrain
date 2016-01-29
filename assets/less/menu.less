@@ -3,10 +3,11 @@
 	display: none;
 	cursor: pointer;
 	position: absolute;
-	top: 10px;
-	right: 10px;
+	top: 0;
+	right: 0;
+	padding: 34px;
+	background-color: transparent;
 	border: none;
-	background: transparent;
 	margin: 0;
 	transition: all 233ms cubic-bezier(0.5, 0, 0, 1);
 
@@ -33,6 +34,9 @@
 
 .checked {
   .hamburger {
+	
+	background-color: #4990e2;
+
     li:first-child {
      
     	transform: rotate( -135deg ) translateY( -4.5px );
@@ -45,17 +49,21 @@
 
 #menu {
 	@media @1024 {
-		visibility: hidden;
+		display: none;
 		position: absolute;
 		width: 100vh;
 		height: 100vh;
 		background-color: #4990e2;
+		z-index: 1;
+		margin-top: 80px;
 
 		ul {
 			width: 100%;
 
 			li {
-				
+				width: 100%;
+				text-align: center;
+				broder-bottom: 3px solid white;
 			}
 		}
 	}

@@ -101,7 +101,13 @@ $(function() {
 
 $('.wrapper').on('click', function(){
   
-  $(this).toggleClass('checked');
-  $('#menu').toggle().css('visibility', 'visible');
+  $(this).toggleClass('checked', true);
+  
+  $('#menu').slideDown();
+
+  $('.checked').on('click', function(){
+    $('.wrapper').toggleClass('checked', false);
+    $('#menu').slideUp();
+  });
 
 });
