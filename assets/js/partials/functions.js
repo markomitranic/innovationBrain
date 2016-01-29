@@ -89,7 +89,7 @@ $("#headerWrapper").vegas({
 });
 
 $(function() {
-    $('.arrow-footer').on('click', function(event) {
+    $('.arrow').on('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top,
