@@ -98,3 +98,10 @@ $(function() {
         event.preventDefault();
     });
 });
+
+$('.wrapper').on('click', function(){
+  
+  $(this).toggleClass('checked');
+  $('#menu').toggle().css('visibility', 'visible');
+
+});
