@@ -65,5 +65,26 @@
 			    }
 			}
 		}
+
+		@media @768 {
+			width: 100%;
+			article {
+				width: 25%;
+
+				&:last-child {
+					display: none;
+				}
+			}
+		}
+
+		@media only screen and (max-width: 550px) {
+			article {
+				width: 50%;
+
+				&:nth-last-child(2), &:nth-last-child(3) {
+					display: none;
+				}
+			}
+		} 
 	}
 }	
