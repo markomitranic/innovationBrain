@@ -9,11 +9,6 @@
 	//width: 780px;
 	position: relative;
 
-	&.pseudo-icon:before {
-		left: initial;
-		right: 0;	
-	}
-
 	section {
 		padding: 33px 0;
 
@@ -24,10 +19,51 @@
 		img:nth-child(2) {
 			width: 98px;
 		}
+
+		@media @550 {
+
+			img:first-child {
+				padding: 0;
+			}
+
+			img:nth-child(2) {
+				display: none;
+			}
+		}
 	}
 	p {
 		text-align: center;
 		padding-bottom: 33px;
 		margin-bottom: 0;
+	}
+
+	ul {
+		list-style-type: none;
+		padding: 0;
+
+		li {
+			display: inline-block;
+		}
+
+		a {
+			color: black;
+			opacity: 0.6;
+		}
+
+		@media @550 {
+			li {
+				width: 80%;
+				display: block;
+				margin: 0 auto;
+				border-bottom: 2px solid black;
+				border-color: rgba(0,0,0,0.6);
+				font-size: 18px;
+				padding: 15px 0;
+
+				&:nth-child(even) {
+					display: none;
+				}
+			}
+		}
 	}
 }
