@@ -43,12 +43,12 @@
 		}
 		.ulfix {
 		    text-align: left;
-		    list-style-type: decimal !important;
+		    list-style-type: decimal;
 		      
 			li {
-			    list-style-type: disc;
 			    width: 100%;
 			    float: none;
+			    opacity: 0.6;
 			    }
 		}
 		.button {
@@ -86,6 +86,21 @@
 		    	}
 		    }
 
+		}
+	}
+
+	@media @840 {
+		width: 100%;
+		margin-top: -120px;
+
+		#content {
+			padding: 50px 10px;
+
+			.content-header {
+				h3 {
+					padding: 0 10px;
+				}
+			}
 		}
 	}
 }
