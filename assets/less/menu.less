@@ -5,7 +5,7 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	padding: 30px;
+	padding: 35px;
 	background-color: transparent;
 	border: none;
 	margin: 0;
@@ -47,23 +47,45 @@
   }
 }
 
-#menu {
-	@media @1024 {
-		display: none;
-		position: absolute;
-		width: 100vh;
-		height: 100vh;
-		background-color: #4990e2;
-		z-index: 1;
-		margin-top: 80px;
-
-		ul {
-			width: 100%;
-
-			li {
+#headerWrapper { //DODATO ZBOG SPECIFICNOSTI
+	#header { // -||-
+		#menu {
+			z-index: 2;
+			@media @1024 {
+				display: none;
+				position: absolute;
 				width: 100%;
-				text-align: center;
-				broder-bottom: 3px solid white;
+				height: 100vh;
+				background-color: #4990e2;
+				margin-top: 84px;
+
+				ul {
+					width: 100%;
+
+					li {
+						display: block;				
+						width: 80%;
+						margin: 0 auto;
+						text-align: center;
+						border-bottom: 3px solid white;
+
+						span.icon {
+							display: none;
+						}
+
+						&:hover {
+							background-color: #2b75ca;
+						}
+
+						&:first-child {
+							margin-top: 10px;
+						}
+					}
+
+					li.lang, li.subscribe {
+						display: none;
+					}
+				}
 			}
 		}
 	}
