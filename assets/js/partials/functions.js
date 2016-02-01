@@ -133,3 +133,12 @@ $('.mobile-hero-carousel .icon-right').on('click', function(e) {
 
 
 
+// Nav active state
+// $(function() {
+//      var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/"));
+//      $("#nav ul li a").each(function(){
+//       console.log(pgurl);
+//           if($(this).attr("href") == pgurl || $(this).attr("href") === '' )
+//           $(this).addClass("current-page");
+//      });
+// });
