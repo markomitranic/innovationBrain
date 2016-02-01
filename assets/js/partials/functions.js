@@ -38,6 +38,18 @@ function newsletterPopout() {
 
 
 
+function fixCanvasPosition(originalEl, wrapperEl) {
+// Get values
+var original = $(originalEl);
+var wrapper = $(wrapperEl).offset();
+// Hardcode
+$('.canvas').css('width', original.width())
+            .css('height', original.height())
+            .css('top', 0 - wrapper.top)
+            .css('left', 0 - wrapper.left);
+}
+
+
 // Background image change plugin
 $("#headerWrapper").vegas({
 	timer: false,
@@ -49,6 +61,15 @@ $("#headerWrapper").vegas({
     ]
 });
 
+$(".canvas").vegas({
+    timer: false,
+    slides: [
+        { src: "img/bg/Background_01.jpg" },
+        { src: "img/bg/Background_02.jpg" },
+        { src: "img/bg/Background_03.jpg" },
+        { src: "img/bg/Background_04.jpg" }
+    ]
+});
 
 // Arrow scrolling
 $(function() {
@@ -108,5 +129,7 @@ $('.mobile-hero-carousel .icon-right').on('click', function(e) {
     sections.first().insertAfter(sections.last());
   });
 });
+
+
 
 
