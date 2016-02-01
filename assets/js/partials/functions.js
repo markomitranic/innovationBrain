@@ -50,18 +50,23 @@ $('.canvas').css('width', original.width())
 }
 
 
+
+
 // Background image change plugin
-$("#headerWrapper").vegas({
-	timer: false,
+var windowW = $(window).width();
+
+if (windowW <= 1024) {
+  $("#headerWrapper").vegas({
+  timer: false,
     slides: [
-        { src: "img/bg/Background_01.jpg" },
-        { src: "img/bg/Background_02.jpg" },
-        { src: "img/bg/Background_03.jpg" },
-        { src: "img/bg/Background_04.jpg" }
+        { src: "img/bg/Background_01xM.jpg" },
+        { src: "img/bg/Background_02xM.jpg" },
+        { src: "img/bg/Background_03xM.jpg" },
+        { src: "img/bg/Background_04xM.jpg" }
     ]
 });
-
-$(".canvas").vegas({
+} else {
+  $(".canvas").vegas({
     timer: false,
     slides: [
         { src: "img/bg/Background_01.jpg" },
@@ -70,6 +75,10 @@ $(".canvas").vegas({
         { src: "img/bg/Background_04.jpg" }
     ]
 });
+}
+
+
+
 
 // Arrow scrolling
 $(function() {
