@@ -14,10 +14,18 @@
 		overflow: hidden;
 		padding: 24px 0;
 		box-sizing: border-box;
+		@media @550 {
+		    padding: 20px 0;
+    		height: 87px;
+		}
 		#logo {
 			float: left;
 			width: 177px;
 			margin-right: 13px;
+			@media @550 {
+				padding-left: 30px;
+    			max-width: 45%;
+			}
 		}
 		nav {
 			float: right;
@@ -65,5 +73,6 @@
 		display: block;
 		max-width: 100%;
 		margin: 0 auto;
+		height: 1px;
 	}
 }

@@ -3,6 +3,11 @@
 		text-align: center;
 		h1 {
 			margin: 20px 0px 15px 0;
+			@media @550 {
+				font-size: 2.8em;
+    			line-height: 1.2em;
+    			margin: 20px;
+			}
 		}
 		p {
 			font-family: HelveticaNeue-Light;
@@ -10,6 +15,9 @@
 			color: #FFFFFF;
 			line-height: 1.20em;
 			margin: 0;
+			@media @550 {
+				margin: 0 5px;
+			}
 		}
 	}
 	#hero {
@@ -37,6 +45,10 @@
 			    top: 152px;
 			    left: 283px;
 			    transform: rotate(-60deg);
+			    @media @550 {
+		    	    position: initial;
+    				transform: none;
+			    }
 			}
 			ul {
 				position: absolute;
@@ -75,6 +87,10 @@
 			    top: 152px;
 		    	left: 416px;
 			    transform: rotate(60deg);
+			    @media @550 {
+		    	    position: initial;
+    				transform: none;
+			    }
 			}
 			ul {
 				position: absolute;
@@ -112,6 +128,10 @@
 			    position: absolute;
 			    top: 256px;
 			    left: 344px;
+			    @media @550 {
+		    	    position: initial;
+    				transform: none;
+			    }
 			}
 			ul {
 				position: absolute;
