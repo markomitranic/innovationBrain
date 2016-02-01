@@ -7,9 +7,4 @@ $(document).ready(function() {
 
 	newsletterPopup();
 
-	// Init the resize function for frosted glass
-	$( window ).resize(function() {
-	fixCanvasPosition('#headerWrapper', '#hero');
-	});
-	fixCanvasPosition('#headerWrapper', '#hero');
 });

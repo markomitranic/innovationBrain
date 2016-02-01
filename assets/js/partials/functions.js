@@ -55,17 +55,17 @@ $('.canvas').css('width', original.width())
 // Background image change plugin
 var windowW = $(window).width();
 
-if (windowW <= 1024) {
+if (windowW > 1024) {
   $("#headerWrapper").vegas({
   timer: false,
     slides: [
-        { src: "img/bg/Background_01xM.jpg" },
-        { src: "img/bg/Background_02xM.jpg" },
-        { src: "img/bg/Background_03xM.jpg" },
-        { src: "img/bg/Background_04xM.jpg" }
+        { src: "img/bg/Background_01.jpg" },
+        { src: "img/bg/Background_02.jpg" },
+        { src: "img/bg/Background_03.jpg" },
+        { src: "img/bg/Background_04.jpg" }
     ]
-});
-} else {
+  });
+
   $(".canvas").vegas({
     timer: false,
     slides: [
@@ -74,7 +74,29 @@ if (windowW <= 1024) {
         { src: "img/bg/Background_03.jpg" },
         { src: "img/bg/Background_04.jpg" }
     ]
-});
+  });
+} else {
+
+    $("#headerWrapper").vegas({
+  timer: false,
+    slides: [
+        { src: "img/bg/Background_01xM.jpg" },
+        { src: "img/bg/Background_02xM.jpg" },
+        { src: "img/bg/Background_03xM.jpg" },
+        { src: "img/bg/Background_04xM.jpg" }
+    ]
+  });
+
+  $(".canvas").vegas({
+    timer: false,
+    slides: [
+        { src: "img/bg/Background_01xM.jpg" },
+        { src: "img/bg/Background_02xM.jpg" },
+        { src: "img/bg/Background_03xM.jpg" },
+        { src: "img/bg/Background_04xM.jpg" }
+    ]
+  });
+
 }
 
 
@@ -141,7 +163,7 @@ $('.mobile-hero-carousel .icon-right').on('click', function(e) {
 
 // Nav active state
 $(function() { 
-    var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/", 1));
+    var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/"), 1);
     console.log(pgurl);
     $("#menu ul li a").each(function(){
         if($(this).attr("href") == pgurl || $(this).attr("href") === '' )
