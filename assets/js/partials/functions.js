@@ -107,8 +107,22 @@ $(function() {
 // Hamburger menu animation
 $('.wrapper').on('click', function(){
   
-  $(this).toggleClass('checked');
+  $(this).finish().toggleClass('checked');
+
+  if (!($('#menu').is(':visible'))) {
+      $('#menu').finish().css('opacity', '0')
+                .slideDown()
+                .animate(
+                    { opacity: 1 },
+                    { queue: false });
+  } else {
+      $('#menu').finish().css('opacity', '1')
+                .slideUp()
+                .animate(
+                    { opacity: 0 },
+                    { queue: false });  
+}
   
-  $('#menu').slideToggle();
+
 
 });
