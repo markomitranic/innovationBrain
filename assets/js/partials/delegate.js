@@ -12,5 +12,4 @@ $(document).ready(function() {
 	fixCanvasPosition('#headerWrapper', '#hero');
 	});
 	fixCanvasPosition('#headerWrapper', '#hero');
-
 });
