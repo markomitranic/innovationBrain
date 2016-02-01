@@ -126,3 +126,28 @@ $('.wrapper').on('click', function(){
 
 
 });
+
+
+
+
+// Hero MOBILE carousel
+$('.mobile-hero-carousel .icon-left').on('click', function(e) {
+    e.preventDefault();
+  var sections = $('.hero-carousel-inner section');  
+  sections.first().hide(function() {
+    sections.last().show();
+    sections.last().insertBefore(sections.first());
+  });
+});
+
+
+$('.mobile-hero-carousel .icon-right').on('click', function(e) {
+    e.preventDefault();
+  var sections = $('.hero-carousel-inner section');  
+  sections.first().hide(function() {
+    sections.first().next().show();
+    sections.first().insertAfter(sections.last());
+  });
+});
+
+

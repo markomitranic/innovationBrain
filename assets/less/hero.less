@@ -168,10 +168,10 @@
 			    }
 			}
 		}
-
-		@media @840 {
-			width: 100%;
+		@media @550 {
+			display: none;
 		}
+
 	}
 	.read-more {
 		border: 1px solid #00C7FF;
@@ -190,6 +190,111 @@
 	    	background-color: #00C7FF;
 	    	color: white;
 	    }
+	    @media @550 {
+	    	display: none;
+	    }
+	}
+	#hero-mobile {
+		display: none;
+
+		@media @768 {
+			display: block;
+		    width: 280px;
+		    height: 560px;
+		    background-color: rgba(0,0,0,.5);
+		    background-image: url(../img/hero-mobile.png);
+		    margin: 0 auto;
+	        background-size: contain;
+		    background-position: center top;
+		    background-repeat: no-repeat;
+		    position: relative;
+
+
+		    .mobile-hero-carousel {
+		    	height: 310px;
+			    width: 100%;
+			    overflow: hidden;
+			    position: absolute;
+			    bottom: 0;
+
+			    .icon.icon-left {
+		    	    position: absolute;
+				    bottom: 210px;
+				    left: 10px;
+			    }
+			    .icon.icon-right {
+		    	    position: absolute;
+				    bottom: 210px;
+				    right: 10px;
+			    }
+		    	.read-more {
+		    		position: absolute;
+				    bottom: 15px;
+				    width: 170px;
+				    margin: 0px 55px;
+					border: 1px solid #00C7FF;
+					border-radius: 30px;
+				    text-decoration: none;
+				    height: 29px;
+				    line-height: 29px;
+				    overflow: hidden;
+				    text-align: center;
+				    padding: 0;
+				    display: block;
+				    font-size: 14px;
+				    &:hover {
+				    	background-color: #00C7FF;
+				    	color: white;
+				    }
+			    }
+			    .hero-carousel-wrapper {
+				    width: 160px;
+				    overflow: hidden;
+				    margin: 0 60px;
+				    position: absolute;
+				    bottom: 0;
+			    }
+			    .hero-carousel-inner {
+			    	width: 1200px;
+			    }
+			    section {
+			    	float: left;
+			    	width: 160px;
+			    	text-align: center;
+			    	height: 295px;
+			    }
+			    section .icon {
+		    	    position: absolute;
+				    top: 0;
+				    left: 50%;
+				    transform: translateX(-50%);
+			    }
+			    section h3 {
+		    	    color: white;
+				    position: absolute;
+				    bottom: 175px;
+				    width: 100%;
+			    }
+			    section ul {
+		    	    list-style-type: none;
+				    padding: 0;
+				    margin: 0 auto;
+				    position: absolute;
+				    bottom: 120px;
+				    width: 160px;
+
+				    li {
+				    	padding: 0;
+				    	margin: 0;
+				    	display: block;
+				    	height: 25px;
+				    	a {
+				    		font-size: 1em;
+				    	}
+				    }
+			    }
+		    }
+		}
 	}
 }
 
