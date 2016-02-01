@@ -160,13 +160,3 @@ $('.mobile-hero-carousel .icon-right').on('click', function(e) {
     sections.first().insertAfter(sections.last());
   });
 });
-
-// Nav active state
-$(function() { 
-    var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/"), 1);
-    console.log(pgurl);
-    $("#menu ul li a").each(function(){
-        if($(this).attr("href") == pgurl || $(this).attr("href") === '' )
-        $(this).addClass("current-page");
-   });
-});
