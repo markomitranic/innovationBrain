@@ -180,7 +180,14 @@
 </article>
 
 <script src="js/scripts.min.js"></script>
+<script type="text/javascript">
+	// Init the resize function for frosted glass
+	fixCanvasPosition('#headerWrapper', '#hero');
+	$( window ).resize(function() {
+		fixCanvasPosition('#headerWrapper', '#hero');
+	});
 
+</script>
 
 </body>
 </html>
