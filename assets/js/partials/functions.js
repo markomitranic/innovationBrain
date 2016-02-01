@@ -78,6 +78,8 @@ function newsletterPopout() {
 //         "translatey(-" + $(window).scrollTop() + "px)");
 // });
 
+
+// Background image change plugin
 $("#headerWrapper").vegas({
 	timer: false,
     slides: [
@@ -88,6 +90,8 @@ $("#headerWrapper").vegas({
     ]
 });
 
+
+// Arrow scrolling
 $(function() {
     $('.arrow').on('click', function(event) {
         var $anchor = $(this);
@@ -99,6 +103,8 @@ $(function() {
     });
 });
 
+
+// Hamburger menu animation
 $('.wrapper').on('click', function(){
   
   $(this).toggleClass('checked');
