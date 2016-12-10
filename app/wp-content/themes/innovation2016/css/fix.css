@@ -1,0 +1,27 @@
+#content-wrapper #content .ulfix {
+	list-style-type: initial;
+}
+
+@media only screen and (max-width: 840px) {
+	#content-wrapper #content .bio-group .bio-right {
+		padding: 0 10px;
+	}
+}
+
+#headerWrapper #hero .hero-triangle {
+	background-color: rgba(0,0,0,0.2);
+}
+
+a#newsletter-button {
+    display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+	a#newsletter-button {
+    	display: block;
+	}
+}
+
+body .vegas-container {
+	overflow: visible;
+}

@@ -55,7 +55,11 @@ gulp.task('build-css', function() {
 
 // Default task
 gulp.task('watch', function() {
-    gulp.watch('assets/js/lib/*.js', ['squish-jquery']);
-    gulp.watch('assets/js/partials/*.js', ['build-js']);
-    gulp.watch('assets/less/*.less', ['build-css']);
+
+    // THIS GULPFILE DOES NOT DO ANYTHING
+
+
+    // gulp.watch('assets/js/lib/*.js', ['squish-jquery']);
+    // gulp.watch('assets/js/partials/*.js', ['build-js']);
+    // gulp.watch('assets/less/*.less', ['build-css']);
 });
