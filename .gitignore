@@ -1,3 +1,2 @@
-production/css/style.css
-production/js/scripts.min.js
-node_modules
+node_modules/*
+wp-config.php
