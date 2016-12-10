@@ -1,0 +1,72 @@
+/* Text Styles from Sketch */
+
+.text--h1 {
+	font-family: HelveticaNeue-Light;
+	font-size: 55px;
+	color: #FFFFFF;
+	line-height: 1.22em;
+}
+
+.text--h2 {
+	font-family: HelveticaNeue-Light;
+	font-size: 25px;
+	color: #FFFFFF;
+	line-height: 1.20em;
+}
+
+.text--h4 {
+	font-family: HelveticaNeue;
+	font-size: 24px;
+	color: #000000;
+	line-height: 1.21em;
+}
+
+.text--h3 {
+	font-family: HelveticaNeue-Light;
+	font-size: 22px;
+	color: #00C7FF;
+	line-height: 1.23em;
+}
+
+.text--body {
+	opacity: 0.6;
+	font-family: HelveticaNeue-Light;
+	font-size: 16px;
+	color: #000000;
+	line-height: 1.31em;
+}
+
+.talk-conference-title {
+	font-family: Helvetica;
+	font-size: 16px;
+	color: #F5A623;
+	line-height: 1.38em;
+}
+
+.top-nav {
+	font-family: HelveticaNeue-Light;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 1.21em;
+}
+
+.text--footer {
+	font-family: HelveticaNeue-Light;
+	font-size: 12px;
+	color: #797979;
+	line-height: 1.25em;
+}
+
+.news-text-gray {
+	font-family: ArialMT;
+	font-size: 12px;
+	color: #A1A1A1;
+	line-height: 1.17em;
+}
+
+.news-text-selected-blue {
+	font-family: ArialMT;
+	font-size: 12px;
+	color: #00D7FF;
+	line-height: 1.17em;
+}

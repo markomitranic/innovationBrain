@@ -1,0 +1,909 @@
+/********** GENERAL **********/
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling:touch;
+    color: white;
+    font-family: 'franklin_yuregular', Arial, sans-serif;
+}
+@font-face { /*regular*/
+    font-family: 'franklin_yuregular';
+    src: url('../fonts/frank-webfont.eot');
+    src: url('../fonts/frank-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/frank-webfont.ttf') format('truetype'),
+         url('../fonts/frank-webfont.svg#franklin_yuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face { /*bold*/
+    font-family: 'franklin_bold_yuregular';
+    src: url('../fonts/frankb-webfont.eot');
+    src: url('../fonts/frankb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/frankb-webfont.ttf') format('truetype'),
+         url('../fonts/frankb-webfont.svg#franklin_bold_yuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.bg { /* pozadinska slika */
+    background: url(../images/defaultbg3.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;    
+    min-height: 100%;
+    overflow-x: hidden;
+}
+a {
+    color: white;
+}
+h1 {
+    font-family: 'franklin_yuregular', Arial, sans-serif;
+    font-size: 58px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-family: 'franklin_yuregular', Arial, sans-serif;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    font-family: 'franklin_yuregular', Arial, sans-serif;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+h4 {
+    font-family: 'franklin_yuregular', Arial, sans-serif;
+}
+h5 {
+    font-family: 'franklin_yuregular', Arial, sans-serif;
+    position: absolute;
+    margin: 0;
+    float: right;
+    font-size: 20px;
+    right: 50px;
+    bottom: 10px;
+    padding: 2px;
+}
+p {
+    font-family: 'franklin_yuregular', Arial, sans-serif;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+li {
+    font-family: 'franklin_yuregular', Arial, sans-serif;
+    font-size: 18px;
+}
+.arial { /* fix za @ znak u mejlovima */
+    font-family: Arial, sans-serif;
+}
+
+.navbar-collapse {
+    padding-left: 0 !important;
+}
+
+.header-pages {
+    margin-bottom: 40px;
+}
+
+.header-pages p {
+    text-transform: uppercase;
+    font-size: 45px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 60px;
+    font-family: 'franklin_bold_yuregular';
+    line-height: 50px;
+}
+
+  .arial {
+      font-family: Arial, sans-serif;
+  }
+
+  .bg {
+      background: url(../images/defaultbg3.jpg);
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: cover;    
+      min-height: 100%;
+      overflow-x: hidden;
+  }
+
+  a {
+      color: white;
+  }
+
+  h1 {
+      font-family: 'franklin_yuregular', Arial, sans-serif;
+      font-size: 58px;
+      margin: 0;
+      padding: 0;
+  }
+
+  h2 {
+      font-family: 'franklin_yuregular', Arial, sans-serif;
+      font-size: 36px;
+      margin: 0;
+      padding: 0;
+  }
+
+  li {
+      font-family: 'franklin_yuregular', Arial, sans-serif;
+      font-size: 18px;
+  }
+
+  h3 {
+      font-family: 'franklin_yuregular', Arial, sans-serif;
+      font-size: 28px;
+      margin: 0;
+      padding: 0;
+  }
+
+  h4 {
+      font-family: 'franklin_yuregular', Arial, sans-serif;
+  }
+
+  h5 {
+      font-family: 'franklin_yuregular', Arial, sans-serif;
+      position: absolute;
+      margin: 0;
+      float: right;
+      font-size: 20px;
+      right: 50px;
+      bottom: 10px;
+      padding: 2px;
+  }
+
+  p {
+      font-family: 'franklin_yuregular', Arial, sans-serif;
+      font-size: 24px;
+      margin: 0;
+      padding: 0;
+  }
+
+  .navbar-collapse {
+      padding-left: 0 !important;
+  }
+
+  a.button {
+      font-family: Arial, sans-serif;
+      display: block;
+      text-decoration : none;
+      background-color: #43b4dd;
+      color: white;
+      border: 1px solid white;
+      border-radius: 5px 5px 0 0;
+      font-size: 16px;
+      padding: 11px;
+      padding-top: 28px;
+      margin-top: 3%;
+      cursor: pointer;
+  }
+
+  .header-pages {
+      margin-bottom: 40px;
+  }
+
+  .header-pages p {
+      text-transform: uppercase;
+      font-size: 45px;
+      display: inline-block;
+      margin-left: 100px;
+      margin-top: 55px;
+      font-family: 'franklin_bold_yuregular';
+      line-height: 50px;
+  }
+
+  .header-pages img {
+      width: 378px;
+      float: right;
+      margin-right: 40px;
+      margin-top: 5px;
+      max-width: 100%;
+  }
+
+/* NAVIGACIJA */
+
+  .nav li a.button {
+      margin-top: 0px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      width: 220px;
+      text-align: center;
+      font-size: 18px;
+  }
+
+  .nav li a:hover {
+      background-color: #1f4ba0
+  }
+
+  .nav li.active > a {
+      background-color: #1f4ba0;
+  }
+
+/* ABOUT US */
+
+  #content-about-us p, #content-about-us li {
+      margin-bottom: 14px;
+      font-size: 22px;
+  }
+
+/* HOME - index.html*/
+
+  h1 {
+     text-align: center;
+     font-family: 'franklin_bold_yuregular';
+     line-height: 50px;
+  }
+
+  h1:first-child {
+      margin-top: 150px;
+      margin-bottom: 10px;
+  }
+
+  h1:nth-child(2) {
+     margin-bottom: 3%;
+     font-family: 'franklin_yuregular';
+     font-size: 40px;
+  }
+
+  .home ul {
+      list-style-type: none;
+      text-align: center;
+      padding-left: 0;
+  }
+
+  .home ul li {
+      font-family: Arial, sans-serif;
+      display: block;
+      width: 16.66%;
+      float: left;
+      height: 100px;
+      text-decoration: none;    
+      color: white;
+      border-radius: 5px 5px 0 0;
+      font-size: 20px;
+      margin-top: 3%;
+      padding-top: 36px;
+      padding: 0;
+  }
+
+  .home #paddfix {
+      padding-top: 38px;
+  }
+
+  .home a.button {
+      width: 100%;
+      height: 100%;
+      display: block;
+      background-color: transparent;
+      cursor: pointer;
+  }
+
+  .home {
+      text-align: center;
+  }
+
+/* OUR SERVICES */
+
+  #rowfix {
+      margin-right: -5px;
+  }
+
+  .part-our-services-top {
+    background-color: #44b5df;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .part-our-services-top img  {
+    padding: 20px 0;
+  }
+
+  .part-our-services-bottom {
+    text-align: center;
+    background-color: #44b5df;
+    min-height: 180px;
+    outline: 9px solid transparent;
+  }
+
+  .part-our-services-bottom h4 {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+  }
+
+  .part-our-services-bottom p {
+    font-size: 14px;
+    color: white;
+  }
+
+  #content-our-services {
+      text-align: center;
+  }
+
+  #content-our-services h2, #content-our-services p{
+      margin-bottom: 10px;
+  }
+
+/* OUR PEOPLE */
+
+  #peoplefix {
+      min-height: 330px;
+  }
+
+  #our-person p + p  {
+      display: none;
+  }
+
+  #our-person p  {
+      font-size: 18px;
+  }
+
+  #people img {
+      border-radius: 160px;
+      display: inline-block;
+  }
+
+  .our-people {
+      margin-top: 10px;
+      text-align: center;
+  }
+
+  .our-people p {
+      margin-top: 10px;
+  }
+
+  .our-people img {
+      width: 80px;
+  }
+
+  .our-people .col-md-2 {
+      width: 20% !important;
+  }
+
+  #peoplefix a{
+      text-decoration: none;
+  }
+
+  #peoplefix a:hover{
+      color: #1f4ba0;
+  }
+
+/* ONAA */
+
+  #content-onaa p {
+      margin-left: 5px;
+      font-size: 20px;
+      line-height: 24px;
+  }
+
+  #content-onaa p:nth-child(2) {
+      margin-bottom: 20px;
+  }
+
+ .img-onaa {
+      width: 90%;
+      margin-bottom: 10px;
+  }
+
+/* SSAN - Success Stories and News */
+
+  #content-saan ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+
+  #content-saan h3 {
+      margin-bottom: 15px;
+      font-size: 22px;
+      font-family: 'franklin_bold_yuregular'
+  }
+
+  #content-saan h3:nth-child(4) {
+      margin-bottom: 10px;
+  }
+
+  #content-saan li {
+      padding-left: 1em; 
+      text-indent: -.7em;
+      line-height: 18px;
+      margin-top: 1%;
+      font-size: 18px;
+      }
+
+  #content-saan p:nth-child(2) {
+    font-family: 'franklin_bold_yuregular';
+  }
+
+  #content-saan p:nth-child(3) {
+    font-family: 'franklin_bold_yuregular';
+  }
+
+  #content-saan p:nth-child(4) {
+    font-family: 'franklin_bold_yuregular';
+  }
+
+  #content-saan li:before {
+      content: "• ";
+      color: #1f4ba0;
+  }
+
+  #content-saan li:last-child:before {
+      content: "";
+  }
+
+  #content-saan li:last-child {
+      margin-top: 20px;
+      margin-bottom: 30px;
+  }
+
+/* CONTACT US */
+
+  #content-contact {
+      margin-top: 10px;
+  }
+
+  #content-contact ul {
+      list-style-type: none;
+      margin-bottom: 20px;
+  }
+
+  #content-contact ul li:first-child{
+      padding-bottom: 5px;
+  }
+
+  #content-contact ul li a{
+      text-decoration: none;
+  }
+
+  #content-contact ul li a:hover{
+      color: #1f4ba0;
+  }
+
+/* NESTO */
+
+  .navbar-default .navbar-toggle .icon-bar {
+      background-color: white;
+      border-color: white;
+  }
+
+  .navbar-default .navbar-toggle {
+      float: right !important;
+      margin-left: 15px !important;
+  }
+
+  .navbar-default .navbar-toggle:hover {
+      background-color: transparent;
+  }
+
+  .navbar-default .navbar-toggle:focus {
+      background-color: transparent;
+  }
+
+  .navbar-toggle {
+      margin-right: 0 !important;
+  }
+
+ 
+
+/*@MEDIA*/
+
+  @media (max-width: 1600px) {
+      h5 {
+          position: relative;
+          margin-top: 20px;
+      }
+  }
+
+  @media (max-width: 1200px) {
+
+    #our-person p {
+      font-size: 14px;
+    }
+
+
+      h5 {
+          position: relative;
+          right: 5px;
+          bottom: 5px;
+          margin-top: 10px;
+      }
+
+      #our-person {
+          margin-left: 60px;
+      }
+
+    #peoplefix {
+      margin-left: 60px;
+    }
+
+      .our-people p {
+      font-size: 14px !important;
+    }
+
+    .home a.button {
+      padding-top: 28px;
+      font-size: 14px;
+    }
+
+    .part-our-services-bottom {
+      min-height: 220px;
+    }
+  }
+
+  @media (max-width: 992px) {
+
+          .home li {
+          width: 100% !important;
+          margin: 0 !important;
+          padding: 0 !important;
+          height: 60px !important;
+      }
+
+      .home a.button {
+          margin: 0;
+          padding: 0;
+          margin: 0 auto;
+          width: 80%;
+
+      }
+
+      .home #paddfix {
+          padding: 0;
+      }
+
+      .home h1:first-child {
+          margin-top: 5%;
+      }
+
+      .home ul li a {
+          padding-top: 16px !important;
+      }
+
+  .nav li a.button {
+      padding-top: 15px;
+      padding-bottom: 15px;
+
+  }
+
+      #content-onaa img {
+          margin-bottom: 30px;
+          margin-left: 50px;
+      }
+
+      #content-onaa p {
+        margin-left: 50px;
+      }
+
+      .part-our-services-bottom {
+          height: 280px;
+      }
+
+      .part-our-services-bottom h4 {
+          font-size: 16px;
+          padding-top: 15px;
+          padding-bottom: 15px;
+      }
+
+      .part-our-services-bottom p {
+          font-size: 14px;
+      }
+
+      .header-pages {
+          text-align: center;
+      }
+
+      .header-pages p {
+          margin-left: 0;
+      }
+
+      .header-pages img {
+          float: none;
+          margin: 0 auto;
+          margin-top: 10px;
+      }
+
+      .our-people p {
+          font-size: 16px;
+      }
+
+      .our-people img {
+          margin-top: 10px;
+      }
+
+  /*  .our-people .col-md-2 {
+          width: 100% !important;
+    }*/
+
+    .our-people img {
+      width: 80px;
+  }
+
+        #our-person {
+          margin-left: 100px;
+      }
+
+    #peoplefix {
+      margin-left: 1px;
+    }
+
+    #content-saan li {
+        width: 95%;
+    }
+  }
+
+  @media (max-width: 767px) {
+
+  .nav li a.button {
+      padding-top: 15px;
+      padding-bottom: 15px;
+
+  }
+
+  h1 {
+      font-size: 25px;
+      margin: 0;
+      padding: 0;
+  }
+
+  h1:nth-child(2) {
+      font-size: 21px;    
+  }
+
+  h2 {
+      font-size: 28px;
+      line-height: 35px;
+      margin: 0;
+      padding: 0;
+  }
+
+  li {
+      font-size: 10px;
+  }
+
+  h3 {
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+  }
+
+  h4 {
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+  }
+
+  h5 {
+      margin-top: 10px;
+      float: right;
+      font-size: 14px;
+      right: 50px;
+      bottom: 10px;
+  }
+
+  p {
+      font-size: 16px;
+      margin: 0;
+      padding: 0;
+  }
+
+  img{
+      width: 35%;
+  }
+
+    #our-person p  {
+    font-size: 14px;
+    }
+
+    .part-our-services-bottom {
+      margin-bottom: 10px;
+      height: auto !important;
+      min-height: auto;
+      padding-bottom: 20px;
+    }
+
+    #peoplefix {
+      min-height: auto;
+    }
+
+    /*    .sidebar-nav {
+      display: none;
+    }*/
+
+    .home .container {
+      text-align: center;
+    }
+
+    .home a.button {
+      margin-top: 0;
+      display: block;
+      width: 90%;
+    }
+
+    .home h1 {
+      line-height: 20px;
+    }
+
+    .home h1:first-child {
+      margin-top: 7%;
+    }
+
+    .home h1:nth-child(2) {
+      margin-bottom: 10%;
+    }
+
+      .home ul li:last-of-type {
+          margin-bottom: 20px !important;
+      }
+
+    .sidebar-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 20px;
+      z-index: 10;
+    }
+
+    .collapse, .collapsing, .collapse.in {
+      position: absolute !important;
+      top: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      margin-top: 50px !important;
+      min-height: 100% !important;
+      border: none !important;
+      text-align: center;
+    }
+
+    .collapse a.button, .collapsing a.button {
+      width: 100% !important;
+    }
+
+    .collapse.in {
+      border: none;
+    }
+
+    .collapsing {
+      border: none;
+    }
+
+    .our-people .col-md-2 {
+      width: 20% !important;
+      float: left;
+      }
+
+    .nav {
+      padding-left: 30px !important; 
+      }
+
+  #our-person {
+          margin-left: 0;
+      }
+
+  #content-onaa img {
+          margin-left: 30px;
+      }
+
+    .single-img-our-person {
+      text-align: center;
+      padding-bottom: 30px;
+    }
+
+  #content-saan li{
+      font-size: 16px;
+      margin-top: 7%;
+      }  
+
+  #content-saan h3{
+      font-size: 18px;
+      } 
+
+      #content-saan li:last-child{
+      text-indent: 0;
+      }
+
+      #content-about-us li {
+      font-size: 16px;
+      }
+
+
+  }
+
+
+
+  /*---LANDSCAPE PRIKAZ TELEFONA---
+  */
+
+  @media (max-width: 767px ) {
+  .part-our-services{
+      width: 33%;
+      margin-left: 0;
+  }
+
+  @media (max-width: 675px ) {
+  .part-our-services{
+      width: 100%;
+      margin-left: 0;
+  }
+
+  .part-our-services-bottom {
+          margin-bottom: 10px;
+          padding-bottom: 20px;
+      }
+
+  .part-our-services-bottom h4{
+      font-size: 18px;
+  }
+
+  .part-our-services-bottom p{
+      font-size: 12px;
+  }
+
+   }
+
+  /*-------------------------------*/
+
+  @media (max-width: 500px){
+      .our-people .col-md-2 {
+          width: 100% !important;
+      }
+  }
+
+  @media (max-width: 700px) and (orientation: landscape){
+      .navbar-nav > li > a {
+          line-height: 0;
+      }
+
+      .navbar-nav > li:first-child {
+        margin-top: -8px;
+      }
+
+      .home ul li {
+        width: 16.66% !important;
+        height: 140px !important;
+      }
+
+      /* pozicioniranje teksta u navigaciji */
+       
+      .home ul li:first-child a.button, .home ul li:nth-child(2) a.button, .home ul li:nth-child(3) a.button, .home ul li:nth-child(6) a.button{
+        padding-top: 50% !important;
+      }
+
+      .home ul li:nth-child(4) a.button {
+        padding-top: 45% !important;
+      }
+
+      .home ul li:nth-child(5) a.button {
+        padding-top: 45% !important;
+      }
+
+      .home ul li a.button {
+        width: 100%;
+        font-size: 12px;
+      }
+
+      .part-our-services{
+          width: 33%;
+          margin-left: 0;
+      }
+
+      .part-our-services-bottom {
+        height: 230px !important;
+      }
+
+      .part-our-services-bottom h4 {
+          font-size: 14px;
+      }
+
+      .part-our-services-bottom p {
+          font-size: 12px;
+      }
+  }}

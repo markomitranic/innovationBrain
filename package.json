@@ -1,17 +1,18 @@
 {
-  "name": "Scotchy",
-  "version": "1.0.0",
-  "description": "Gulp Starter with Less",
-  "main": " ",
+  "name": "innovation-brain",
+  "version": "1.0.1",
+  "description": "A repo for Innovation Brain website",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/scotch-io/gulp-and-less-starter-kit"
+    "url": "git+ssh://git@bitbucket.org/markomitranic/innovation.git"
   },
-  "author": "Nicholas Cerminara",
-  "license": "MIT",
+  "author": "Marko Mitranic <marko.mitranic@me.com> (https://github.com/markomitranic)",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/markomitranic/innovation#readme",
   "devDependencies": {
     "gulp": "^3.8.10",
     "gulp-autoprefixer": "^2.1.0",
