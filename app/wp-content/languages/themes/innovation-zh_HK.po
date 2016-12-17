@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Innovation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-17 17:09+0000\n"
+"PO-Revision-Date: 2016-12-17 17:10+0000\n"
+"Last-Translator: markomitranic <marko.mitranic@gmail.com>\n"
+"Language-Team: Chinese (Hong Kong)\n"
+"Language: zh-HK\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: 404.php:11
+msgid "404.php | 404 Page Not Found"
+msgstr ""
+
+#: 404.php:18
+msgid "404.php | We are sorry."
+msgstr ""
+
+#: 404.php:19
+msgid "404.php | The page you are trying to reach does not exist"
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"404.php | Try navigating from the <a href=\"http://innovationbrain.com/\">"
+"Home Page</a>"
+msgstr ""
+
+#. Name of the template
+msgid "Fluid Template"
+msgstr ""
+
+#: footer.php:24
+msgid "footer.php | Email"
+msgstr "名字"
+
+#: footer.php:26
+msgid "footer.php | First Name"
+msgstr "姓氏"
+
+#: footer.php:28
+msgid "footer.php | Last Name"
+msgstr "電子郵件"
+
+#. Name of the template
+msgid "Home Template"
+msgstr ""
+
+#. Name of the theme
+msgid "Innovation"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"This theme was created for a client. Unfortunately no further use is allowed."
+msgstr ""
+
+#. URI of the theme
+msgid "https://github.com/markomitranic/innovationBrain"
+msgstr ""
+
+#. Author of the theme
+msgid "Marko Mitranic"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://github.com/markomitranic"
+msgstr ""
+
+#: footer.php:16 footer.php:30
+msgid "footer.php | Subscribe"
+msgstr "訂閱"
+
+#: footer.php:17
+msgid ""
+"footer.php | Please enter the details below to subscribe to our Innovation "
+"Brain newsletter"
+msgstr "如需訂閱我們 Innovation Brain 的電子報， 請於下方輸入詳細資料"
+
+#: front-page.php:11
+msgid "front-page.php | Welcome to Innovation Brain"
+msgstr "歡迎蒞臨 Innovation Brain"
+
+#: front-page.php:12
+msgid ""
+"front-page.php | Value Creation through Turnaround, Innovation and Growth"
+msgstr "透過轉型、創新與成長創造價值"
+
+#: front-page.php:101 front-page.php:188
+msgid "front-page.php | Read more"
+msgstr "了解更多"
+
+#: front-page.php:197
+msgid "front-page.php | Latest Top News"
+msgstr "最新頭條新聞"
+
+#: front-page.php:198
+msgid "front-page.php | News provided by Reuters"
+msgstr "新聞由路透社提供"

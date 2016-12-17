@@ -1,7 +1,7 @@
 <?php get_header(); the_post();  ?>
 
 	<div class="title-wrap">		
-		<h1>About Us</h1>
+		<h1><?php echo get_the_title(); ?></h1>
 	</div>
 </div>
 

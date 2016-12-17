@@ -5,19 +5,11 @@ Template Name: Home Template
 
 ?> 
 
-
-
-
-
-
-
-
-
 <?php get_header(); ?>
 
-	<div class="title-wrap">		
-		<h1>Welcome to Innovation Brain</h1>
-		<p>Value Creation through Turnaround, Innovation and Growth</p>
+	<div class="title-wrap">
+		<h1><?php _e( 'front-page.php | Welcome to Innovation Brain', 'innovation' ); ?></h1>
+		<p><?php _e( 'front-page.php | Value Creation through Turnaround, Innovation and Growth', 'innovation' ); ?></p>
 	</div>
 
 	<div id="hero-mobile">
@@ -106,7 +98,7 @@ Template Name: Home Template
 					</section>
 				</div>
 			</div>
-			<a href="#" class="read-more">Read more</a>
+			<a href="#" class="read-more"><?php _e( 'front-page.php | Read more', 'innovation' ); ?></a>
 		</nav>
 	</div>
 
@@ -193,7 +185,7 @@ Template Name: Home Template
 	</div>
 
 
-	<a href="#" class="read-more">Read more</a>
+	<a href="#" class="read-more"><?php _e( 'front-page.php | Read more', 'innovation' ); ?></a>
 </div>
 
 
@@ -202,8 +194,8 @@ Template Name: Home Template
 <!-- <main id="contentWrapper">
 	<section id="latest">
 		<a href="#latest" class="arrow arrow-down"></a>
-		<h3>Latest Top News</h3>
-		<p>News provided by Reuters</p>
+		<h3><?php _e( 'front-page.php | Latest Top News', 'innovation' ); ?></h3>
+		<p><?php _e( 'front-page.php | News provided by Reuters', 'innovation' ); ?></p>
 		<div class="clearfix"></div>
 		<article>
 			<a href="#">

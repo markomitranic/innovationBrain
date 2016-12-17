@@ -13,21 +13,21 @@
 <div id="curtain"></div>
 <article id="newsletter">
 	<div id="newsletter-close" class="icon icon-close"></div>
-	<h1>Subscribe</h1>
-	<p>Please enter the details below to subscribe to our Innovation Brain newsletter</p>
+	<h1><?php _e( 'footer.php | Subscribe', 'innovation' ); ?></h1>
+	<p><?php _e( 'footer.php | Please enter the details below to subscribe to our Innovation Brain newsletter', 'innovation' ); ?></p>
 	<form action="/" method="POST">
 
 		<label style="display: none;">
 			<input type="checkbox" name="mc4wp-subscribe" value="1" checked/>
 		</label>
 
-		<input type="email" name="EMAIL" placeholder="Email" required>
+		<input type="email" name="EMAIL" placeholder="<?php _e( 'footer.php | Email', 'innovation' ); ?>" required>
 
-		<input type="text" name="FNAME" placeholder="First Name" required>
+		<input type="text" name="FNAME" placeholder="<?php _e( 'footer.php | First Name', 'innovation' ); ?>" required>
 
-		<input type="text" name="LNAME" placeholder="Last Name" required>
+		<input type="text" name="LNAME" placeholder="<?php _e( 'footer.php | Last Name', 'innovation' ); ?>" required>
 
-		<input type="submit" value="Subscribe">
+		<input type="submit" value="<?php _e( 'footer.php | Subscribe', 'innovation' ); ?>">
 
 	</form>
 </article>

@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Innovation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-17 17:09+0000\n"
+"PO-Revision-Date: 2016-12-17 17:09+0000\n"
+"Last-Translator: markomitranic <marko.mitranic@gmail.com>\n"
+"Language-Team: English (UK)\n"
+"Language: en-GB\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the template
+msgid "Fluid Template"
+msgstr ""
+
+#: footer.php:24
+msgid "footer.php | Email"
+msgstr ""
+
+#: footer.php:26
+msgid "footer.php | First Name"
+msgstr ""
+
+#: footer.php:28
+msgid "footer.php | Last Name"
+msgstr ""
+
+#. Name of the template
+msgid "Home Template"
+msgstr ""
+
+#. Name of the theme
+msgid "Innovation"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"This theme was created for a client. Unfortunately no further use is allowed."
+msgstr ""
+
+#. URI of the theme
+msgid "https://github.com/markomitranic/innovationBrain"
+msgstr ""
+
+#. Author of the theme
+msgid "Marko Mitranic"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://github.com/markomitranic"
+msgstr ""
+
+#: 404.php:11
+msgid "404.php | 404 Page Not Found"
+msgstr "404 Page Not Found"
+
+#: 404.php:18
+msgid "404.php | We are sorry."
+msgstr "We are sorry."
+
+#: 404.php:19
+msgid "404.php | The page you are trying to reach does not exist"
+msgstr "The page you are trying to reach does not exist"
+
+#: 404.php:21
+msgid ""
+"404.php | Try navigating from the <a href=\"http://innovationbrain.com/\">"
+"Home Page</a>"
+msgstr ""
+"Try navigating from the <a href=\"http://innovationbrain.com/\">Home Page</a>"
+
+#: footer.php:16 footer.php:30
+msgid "footer.php | Subscribe"
+msgstr "Subscribe"
+
+#: footer.php:17
+msgid ""
+"footer.php | Please enter the details below to subscribe to our Innovation "
+"Brain newsletter"
+msgstr ""
+"Please enter the details below to subscribe to our Innovation Brain "
+"newsletter"
+
+#: front-page.php:11
+msgid "front-page.php | Welcome to Innovation Brain"
+msgstr "Welcome to Innovation Brain"
+
+#: front-page.php:12
+msgid ""
+"front-page.php | Value Creation through Turnaround, Innovation and Growth"
+msgstr "Value Creation through Turnaround, Innovation and Growth"
+
+#: front-page.php:101 front-page.php:188
+msgid "front-page.php | Read more"
+msgstr "Read more"
+
+#: front-page.php:197
+msgid "front-page.php | Latest Top News"
+msgstr "Latest Top News"
+
+#: front-page.php:198
+msgid "front-page.php | News provided by Reuters"
+msgstr "News provided by Reuters"
