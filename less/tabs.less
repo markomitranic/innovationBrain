@@ -52,6 +52,7 @@
 		}
 	}
 }
+
 .tabs-content {
 	
 	.tab-content {
@@ -60,4 +61,20 @@
 	.tab-content:nth-child(1) {
 		display: block;
 	}
+}
+/* This is a quick fix for when the client asked us to add a third tab. 
+	Basically i have reset the container to a flexbox and let them divide the space as they see fit.
+*/
+#tabs-menu ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch
+    // flex-basis: 0;
+}
+#tabs-menu ul li {
+	flex-grow: 1;
+}
+#tabs-menu ul li a {
+	width: 100%;
 }

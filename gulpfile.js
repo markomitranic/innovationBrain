@@ -8,25 +8,25 @@ gulp.task('default', ['watch']);
 
 // Minify jQuery Plugins: Run manually with: "gulp squish-jquery"
 gulp.task('squish-jquery', function() {
-  return gulp.src('assets/js/lib/*.js')
+  return gulp.src('js/lib/*.js')
     .pipe(plugins.uglify())
     .pipe(plugins.concat('jquery.plugins.min.js'))
-    .pipe(gulp.dest('production/js'));
+    .pipe(gulp.dest('app/wp-content/themes/innovation/js'));
 });
 
 // Minify Custom JS: Run manually with: "gulp build-js"
 gulp.task('build-js', function() {
-  return gulp.src('assets/js/partials/*.js')
+  return gulp.src('js/partials/*.js')
     .pipe(plugins.jshint())
     .pipe(plugins.jshint.reporter('jshint-stylish'))
     .pipe(plugins.uglify())
     .pipe(plugins.concat('scripts.min.js'))
-    .pipe(gulp.dest('production/js'));
+    .pipe(gulp.dest('app/wp-content/themes/innovation/js'));
 });
 
 // Less to CSS: Run manually with: "gulp build-css"
 gulp.task('build-css', function() {
-    return gulp.src('assets/less/style.less')
+    return gulp.src('less/style.less')
         .pipe(plugins.plumber())
         .pipe(plugins.less())
         .on('error', function (err) {
@@ -50,16 +50,10 @@ gulp.task('build-css', function() {
             }
         ))
         .pipe(plugins.cssmin())
-        .pipe(gulp.dest('production/css/')).on('error', gutil.log);
+        .pipe(gulp.dest('app/wp-content/themes/innovation/css/')).on('error', gutil.log);
 });
 
 // Default task
 gulp.task('watch', function() {
-
-    // THIS GULPFILE DOES NOT DO ANYTHING
-
-
-    // gulp.watch('assets/js/lib/*.js', ['squish-jquery']);
-    // gulp.watch('assets/js/partials/*.js', ['build-js']);
-    // gulp.watch('assets/less/*.less', ['build-css']);
+    gulp.watch('less/*.less', ['build-css']);
 });
