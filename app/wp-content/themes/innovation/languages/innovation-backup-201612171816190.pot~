@@ -3,16 +3,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-17 17:04+0000\n"
+"POT-Creation-Date: 2016-12-17 17:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
 "Language: \n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco https://localise.biz/"
+"X-Generator: Loco - https://localise.biz/"
 
 #: 404.php:11
 msgid "404.php | 404 Page Not Found"
@@ -36,7 +36,7 @@ msgstr ""
 msgid "Fluid Template"
 msgstr ""
 
-#: footer.php:16
+#: footer.php:16 footer.php:30
 msgid "footer.php | Subscribe"
 msgstr ""
 
@@ -44,6 +44,18 @@ msgstr ""
 msgid ""
 "footer.php | Please enter the details below to subscribe to our Innovation "
 "Brain newsletter"
+msgstr ""
+
+#: footer.php:24
+msgid "footer.php | Email"
+msgstr ""
+
+#: footer.php:26
+msgid "footer.php | First Name"
+msgstr ""
+
+#: footer.php:28
+msgid "footer.php | Last Name"
 msgstr ""
 
 #. Name of the template

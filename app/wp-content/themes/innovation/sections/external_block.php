@@ -4,7 +4,7 @@
 	<article>
 		<p><span><?php echo $link["title"]; ?></span><br>
 		<?php echo $link["details"]; ?></p>
-		<button><a href="<?php echo $link["link"]; ?>">Download</a></button>
+		<button><a href="<?php echo $link["link"]; ?>"><?php _e( 'external_block.php | Download:', 'innovation' ); ?></a></button>
 	</article>
 	<?php } ?>
 

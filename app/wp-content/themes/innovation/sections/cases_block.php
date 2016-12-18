@@ -7,7 +7,7 @@
 
 	<div class="split-right">
 		<h4><?php echo $link["title"]; ?></h4>
-		<p class="success">Success achieved:</p>
+		<p class="success"><?php _e( 'cases_block.php | Success achieved:', 'innovation' ); ?></p>
 		<p><?php echo $link["details"]; ?></p>
 	</div>
 </div>

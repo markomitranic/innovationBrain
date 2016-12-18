@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Innovation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-17 17:09+0000\n"
-"PO-Revision-Date: 2016-12-17 17:09+0000\n"
+"POT-Creation-Date: 2016-12-17 18:16+0000\n"
+"PO-Revision-Date: 2016-12-17 18:16+0000\n"
 "Last-Translator: markomitranic <marko.mitranic@gmail.com>\n"
 "Language-Team: English (UK)\n"
 "Language: en-GB\n"
@@ -17,20 +17,20 @@ msgstr ""
 msgid "Fluid Template"
 msgstr ""
 
-#: footer.php:24
-msgid "footer.php | Email"
-msgstr ""
-
-#: footer.php:26
-msgid "footer.php | First Name"
-msgstr ""
-
-#: footer.php:28
-msgid "footer.php | Last Name"
-msgstr ""
-
 #. Name of the template
 msgid "Home Template"
+msgstr ""
+
+#: sections/cases_block.php:10
+msgid "cases_block.php | Success achieved:"
+msgstr ""
+
+#: sections/external_block.php:7
+msgid "external_block.php | Download:"
+msgstr ""
+
+#: sections/read_more_block.php:2
+msgid "read_more_block.php | Read More"
 msgstr ""
 
 #. Name of the theme
@@ -84,6 +84,18 @@ msgid ""
 msgstr ""
 "Please enter the details below to subscribe to our Innovation Brain "
 "newsletter"
+
+#: footer.php:24
+msgid "footer.php | Email"
+msgstr "Email"
+
+#: footer.php:26
+msgid "footer.php | First Name"
+msgstr "First Name"
+
+#: footer.php:28
+msgid "footer.php | Last Name"
+msgstr "Last Name"
 
 #: front-page.php:11
 msgid "front-page.php | Welcome to Innovation Brain"

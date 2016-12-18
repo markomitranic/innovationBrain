@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Innovation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-17 17:09+0000\n"
-"PO-Revision-Date: 2016-12-17 17:09+0000\n"
+"POT-Creation-Date: 2016-12-17 18:16+0000\n"
+"PO-Revision-Date: 2016-12-17 18:18+0000\n"
 "Last-Translator: markomitranic <marko.mitranic@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong)\n"
 "Language: zh-HK\n"
@@ -35,20 +35,20 @@ msgstr ""
 msgid "Fluid Template"
 msgstr ""
 
-#: footer.php:24
-msgid "footer.php | Email"
-msgstr ""
-
-#: footer.php:26
-msgid "footer.php | First Name"
-msgstr ""
-
-#: footer.php:28
-msgid "footer.php | Last Name"
-msgstr ""
-
 #. Name of the template
 msgid "Home Template"
+msgstr ""
+
+#: sections/cases_block.php:10
+msgid "cases_block.php | Success achieved:"
+msgstr "成功實現:"
+
+#: sections/external_block.php:7
+msgid "external_block.php | Download:"
+msgstr "下載"
+
+#: sections/read_more_block.php:2
+msgid "read_more_block.php | Read More"
 msgstr ""
 
 #. Name of the theme
@@ -81,6 +81,18 @@ msgid ""
 "footer.php | Please enter the details below to subscribe to our Innovation "
 "Brain newsletter"
 msgstr "如需訂閱我們 Innovation Brain 的電子報， 請於下方輸入詳細資料"
+
+#: footer.php:24
+msgid "footer.php | Email"
+msgstr "名字"
+
+#: footer.php:26
+msgid "footer.php | First Name"
+msgstr "姓氏"
+
+#: footer.php:28
+msgid "footer.php | Last Name"
+msgstr "電子郵件"
 
 #: front-page.php:11
 msgid "front-page.php | Welcome to Innovation Brain"

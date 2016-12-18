@@ -4317,10 +4317,353 @@
                 },
                 {
                     "key": "56b3f1f1dbf0a",
-                    "name": "",
+                    "name": "full_contact_block",
                     "label": "Big Contact Block",
                     "display": "block",
-                    "sub_fields": [],
+                    "sub_fields": [
+                        {
+                            "multiple": 0,
+                            "allow_null": 0,
+                            "choices": {
+                                "icon-mail": "Mail",
+                                "icon-star": "Star",
+                                "icon-arrow-down": "Arrow Down",
+                                "icon-grid": "Grid",
+                                "icon-turnaround": "Turnaround",
+                                "icon-masonery": "Masonery",
+                                "icon-download": "Download",
+                                "icon-bullseye": "Bullseye",
+                                "icon-bullseye-small": "Small Bullseye",
+                                "icon-progress": "Progress Chart",
+                                "icon-progress-small": "Small Progress Chart",
+                                "icon-pill": "Pill",
+                                "icon-pill-small": "Small Pill",
+                                "icon-folder": "Folder",
+                                "icon-pie": "Pie Chart",
+                                "icon-close": "Close",
+                                "icon-paper": "Paper",
+                                "icon-cloud": "Cloud",
+                                "icon-left": "Arrow Left",
+                                "icon-right": "Arrow Right"
+                            },
+                            "default_value": [],
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "return_format": "value",
+                            "key": "field_58568bc191b1b",
+                            "label": "Icon",
+                            "name": "contact_icon",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            }
+                        },
+                        {
+                            "default_value": "",
+                            "maxlength": 256,
+                            "placeholder": "Department Name",
+                            "prepend": "",
+                            "append": "",
+                            "key": "field_58568c4791b22",
+                            "label": "Departmant Name",
+                            "name": "departmant",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "70",
+                                "class": "",
+                                "id": ""
+                            }
+                        },
+                        {
+                            "sub_fields": [
+                                {
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "E-mail:, Tel:, Name...",
+                                    "prepend": "",
+                                    "append": "",
+                                    "key": "field_58568d5838553",
+                                    "label": "Left Value (Black text)",
+                                    "name": "contact_value_left",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    }
+                                },
+                                {
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "mail@example.com",
+                                    "prepend": "",
+                                    "append": "",
+                                    "key": "field_58568d5838554",
+                                    "label": "Contact Value Right",
+                                    "name": "contact_value_right",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    }
+                                },
+                                {
+                                    "multiple": 0,
+                                    "allow_null": 1,
+                                    "choices": {
+                                        ": URL": ": URL",
+                                        "mailto:": "Mail",
+                                        "tel:": "Phone"
+                                    },
+                                    "default_value": [],
+                                    "ui": 0,
+                                    "ajax": 0,
+                                    "placeholder": "",
+                                    "return_format": "value",
+                                    "key": "field_58568d5838555",
+                                    "label": "Link Type",
+                                    "name": "link_type",
+                                    "type": "select",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    }
+                                },
+                                {
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "+44123456, http:\/\/www.example.com",
+                                    "append": "",
+                                    "key": "field_58568d5838556",
+                                    "label": "Link",
+                                    "name": "link",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    }
+                                }
+                            ],
+                            "min": 0,
+                            "max": 0,
+                            "layout": "block",
+                            "button_label": "Add Row",
+                            "collapsed": "",
+                            "key": "field_58568d5838552",
+                            "label": "Ways of contact",
+                            "name": "contact_values",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "100",
+                                "class": "",
+                                "id": ""
+                            }
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "58568c5a91b23",
+                    "name": "contact_block",
+                    "label": "Contact Block",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "multiple": 0,
+                            "allow_null": 0,
+                            "choices": {
+                                "icon-mail": "Mail",
+                                "icon-star": "Star",
+                                "icon-arrow-down": "Arrow Down",
+                                "icon-grid": "Grid",
+                                "icon-turnaround": "Turnaround",
+                                "icon-masonery": "Masonery",
+                                "icon-download": "Download",
+                                "icon-bullseye": "Bullseye",
+                                "icon-bullseye-small": "Small Bullseye",
+                                "icon-progress": "Progress Chart",
+                                "icon-progress-small": "Small Progress Chart",
+                                "icon-pill": "Pill",
+                                "icon-pill-small": "Small Pill",
+                                "icon-folder": "Folder",
+                                "icon-pie": "Pie Chart",
+                                "icon-close": "Close",
+                                "icon-paper": "Paper",
+                                "icon-cloud": "Cloud",
+                                "icon-left": "Arrow Left",
+                                "icon-right": "Arrow Right"
+                            },
+                            "default_value": [],
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "return_format": "value",
+                            "key": "field_58568c5a91b24",
+                            "label": "Icon",
+                            "name": "contact_icon",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            }
+                        },
+                        {
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "key": "field_58568c7791b25",
+                            "label": "Contact Message",
+                            "name": "contact_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            }
+                        },
+                        {
+                            "sub_fields": [
+                                {
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "E-mail:, Tel:, Name...",
+                                    "prepend": "",
+                                    "append": "",
+                                    "key": "field_58568c1091b1e",
+                                    "label": "Left Value (Black text)",
+                                    "name": "contact_value_left",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    }
+                                },
+                                {
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "mail@example.com",
+                                    "prepend": "",
+                                    "append": "",
+                                    "key": "field_58568c1091b1f",
+                                    "label": "Contact Value Right",
+                                    "name": "contact_value_right",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    }
+                                },
+                                {
+                                    "multiple": 0,
+                                    "allow_null": 1,
+                                    "choices": {
+                                        ": URL": ": URL",
+                                        "mailto:": "Mail",
+                                        "tel:": "Phone"
+                                    },
+                                    "default_value": [],
+                                    "ui": 0,
+                                    "ajax": 0,
+                                    "placeholder": "",
+                                    "return_format": "value",
+                                    "key": "field_58568c1091b20",
+                                    "label": "Link Type",
+                                    "name": "link_type",
+                                    "type": "select",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    }
+                                },
+                                {
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "+44123456, http:\/\/www.example.com",
+                                    "append": "",
+                                    "key": "field_58568c1091b21",
+                                    "label": "Link",
+                                    "name": "link",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    }
+                                }
+                            ],
+                            "min": 0,
+                            "max": 0,
+                            "layout": "block",
+                            "button_label": "Add Row",
+                            "collapsed": "",
+                            "key": "field_58568c1091b1d",
+                            "label": "Ways of contact",
+                            "name": "contact_values",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "100",
+                                "class": "",
+                                "id": ""
+                            }
+                        }
+                    ],
                     "min": "",
                     "max": ""
                 }
@@ -4368,5 +4711,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1481996550
+    "modified": 1482067319
 }
