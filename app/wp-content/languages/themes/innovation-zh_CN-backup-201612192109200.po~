@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Innovation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-19 21:05+0000\n"
+"PO-Revision-Date: 2016-12-19 21:08+0000\n"
+"Last-Translator: markomitranic <marko.mitranic@gmail.com>\n"
+"Language-Team: Chinese (China)\n"
+"Language: zh-CN\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: 404.php:11
+msgid "404.php | 404 Page Not Found"
+msgstr ""
+
+#: 404.php:18
+msgid "404.php | We are sorry."
+msgstr ""
+
+#: 404.php:19
+msgid "404.php | The page you are trying to reach does not exist"
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"404.php | Try navigating from the <a href=\"http://innovationbrain.com/\">"
+"Home Page</a>"
+msgstr ""
+
+#. Name of the template
+msgid "Fluid Template"
+msgstr ""
+
+#: footer.php:16 footer.php:30
+msgid "footer.php | Subscribe"
+msgstr "订阅"
+
+#: footer.php:17
+msgid ""
+"footer.php | Please enter the details below to subscribe to our Innovation "
+"Brain newsletter"
+msgstr ""
+"请填写下面的详细信息以订阅我们\n"
+"Innovation Brain 的电子报。"
+
+#: footer.php:24
+msgid "footer.php | Email"
+msgstr "姓名"
+
+#: footer.php:26
+msgid "footer.php | First Name"
+msgstr "姓氏"
+
+#: footer.php:28
+msgid "footer.php | Last Name"
+msgstr "电子邮件"
+
+#. Name of the template
+msgid "Home Template"
+msgstr ""
+
+#: front-page.php:11
+msgid "front-page.php | Welcome to Innovation Brain"
+msgstr "欢迎来到 Innovation Brain"
+
+#: front-page.php:12
+msgid ""
+"front-page.php | Value Creation through Turnaround, Innovation and Growth"
+msgstr "通过转变、创新和成长创造价值"
+
+#: front-page.php:101 front-page.php:188
+msgid "front-page.php | Read more"
+msgstr "了解更多"
+
+#: front-page.php:197
+msgid "front-page.php | Latest Top News"
+msgstr "最新头条新闻"
+
+#: front-page.php:198
+msgid "front-page.php | News provided by Reuters"
+msgstr "由路透社提供的新闻"
+
+#: sections/cases_block.php:10
+msgid "cases_block.php | Success achieved:"
+msgstr "取得的成功:"
+
+#: sections/external_block.php:7
+msgid "external_block.php | Download:"
+msgstr ""
+
+#: sections/read_more_block.php:2
+msgid "read_more_block.php | Read More"
+msgstr ""
+
+#. Name of the theme
+msgid "Innovation"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"This theme was created for a client. Unfortunately no further use is allowed."
+msgstr ""
+
+#. URI of the theme
+msgid "https://github.com/markomitranic/innovationBrain"
+msgstr ""
+
+#. Author of the theme
+msgid "Marko Mitranic"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://github.com/markomitranic"
+msgstr ""
